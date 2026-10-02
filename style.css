@@ -377,37 +377,31 @@ a{
    WHAT I LEARNED
 ========================= */
 
-/* =========================
-   WHAT I LEARNED - OLD LAYOUT
-========================= */
-
-.learn {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  padding: 64px 0;
+.learn{
+  display:block;
+  padding:64px 0;
 }
 
-/* Hide the WHAT I LEARNED title */
-.learn > div:first-child {
-  display: none;
+/* Hide WHAT I LEARNED title */
+.learn > div:first-child{
+  display:none;
 }
 
-/* Keep the 4 learning items side-by-side */
-.items {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 22px 50px;
-  width: 100%;
+/* Keep the 4 learning items side by side */
+.items{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px 40px;
+  width:100%;
 }
 
-.item {
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
+.item{
+  display:flex;
+  align-items:flex-start;
+  gap:12px;
 }
 
-.ic {
+.ic{
   flex:none;
   width:50px;
   height:50px;
@@ -418,29 +412,22 @@ a{
   place-content:center;
 }
 
-.ic svg {
+.ic svg{
   width:26px;
   height:26px;
 }
 
-.item h3 {
+.item h3{
   font:700 16px var(--body);
   letter-spacing:0;
   margin:0 0 2px;
 }
 
-.item p {
+.item p{
   margin:0;
   font-size:14.5px;
   color:var(--soft);
   line-height:1.45;
-}
-
-/* Mobile */
-@media (max-width:560px) {
-  .items {
-    grid-template-columns:1fr;
-  }
 }
 
 /* =========================
