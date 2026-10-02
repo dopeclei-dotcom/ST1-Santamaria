@@ -384,6 +384,10 @@ a{
    ORIGINAL LAYOUT
 ========================= */
 
+/* =========================
+   WHAT I LEARNED
+========================= */
+
 .learn{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -392,13 +396,24 @@ a{
   padding:64px 0;
 }
 
-.learn h2{
-  font-size:42px;
-  margin-bottom:22px;
-  color:var(--red);
+/* Move the title to the RIGHT */
+.learn > div:first-child{
+  order:2;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
 }
 
+.learn h2{
+  font-size:42px;
+  margin:0;
+  color:var(--red);
+  text-align:right;
+}
+
+/* Learning items stay on the LEFT */
 .items{
+  order:1;
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:22px;
@@ -428,7 +443,7 @@ a{
 .item h3{
   font:700 16px var(--body);
   letter-spacing:0;
-  margin-bottom:2px;
+  margin:0 0 2px;
 }
 
 .item p{
@@ -437,6 +452,7 @@ a{
   color:var(--soft);
   line-height:1.45;
 }
+
 
 
 /* =========================
@@ -593,13 +609,25 @@ dialog button{
     grid-template-columns:1fr;
   }
 
+  .learn > div:first-child{
+    order:1;
+    justify-content:flex-start;
+  }
+
+  .learn h2{
+    text-align:left;
+  }
+
+  .items{
+    order:2;
+  }
+
   .grid{
     grid-template-columns:1fr 1fr;
   }
 
   .stats{
     grid-template-columns:1fr 1fr 1fr;
-    margin-bottom:50px;
   }
 
   .stats p{
