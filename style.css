@@ -623,31 +623,33 @@ dialog button{
 @media (max-width:860px){
 
   .hero{
-    grid-template-columns:1fr;
+    grid-template-columns:1fr
   }
 
   .arch{
     max-width:420px;
-    aspect-ratio:1/1;
+    aspect-ratio:1/1
   }
 
   .grid{
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr 1fr
   }
 
   .stats{
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr
   }
 
   .stats p{
-    grid-column:1/-1;
+    grid-column:1/-1
   }
+
+}
 
   .items{
     grid-template-columns:1fr 1fr;
     column-gap:30px;
   }
-}
+
 
 
 /* =========================
