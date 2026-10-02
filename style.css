@@ -381,11 +381,6 @@ a{
 
 /* =========================
    WHAT I LEARNED
-   ORIGINAL LAYOUT
-========================= */
-
-/* =========================
-   WHAT I LEARNED
 ========================= */
 
 .learn{
@@ -394,21 +389,6 @@ a{
   gap:40px;
   align-items:center;
   padding:64px 0;
-}
-
-/* Move the title to the RIGHT */
-.learn > div:first-child{
-  order:2;
-  display:flex;
-  justify-content:flex-end;
-  align-items:center;
-}
-
-.learn h2{
-  font-size:42px;
-  margin:0;
-  color:var(--red);
-  text-align:right;
 }
 
 /* Learning items stay on the LEFT */
