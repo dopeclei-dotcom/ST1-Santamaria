@@ -15,7 +15,7 @@ const D = [
  { t:"IoT Smarter Tools: proof 2 of 3", m:"Google Meet screenshot · Aug 21, 2026", g:"ai proof", s:"proof of participation/IoT1.png", p:1 },
  { t:"IoT Smarter Tools: proof 3 of 3", m:"Google Meet screenshot · Aug 21, 2026", g:"ai proof", s:"proof of participation/IOT2.png", p:1 },
  { t:"Secure by Design: proof 1 of 2", m:"Google Meet screenshot · Aug 19, 2026", g:"cyber proof", s:"proof of participation/cybersecurity.jpeg", p:1 },
-{ t:"Secure by Design: proof 2 of 2", m:"Google Meet screenshot · Aug 19, 2026", g:"cyber proof", s:"proof of participation/cybersecurity2.jpeg", p:1 },
+{ t:"Secure by Design: proof 2 of 2", m:"Google Meet screenshot · Aug 19, 2026", g:"cyber proof", s:"proof of participation/cyberseurity2.jpeg", p:1 },
  
 ];
 
