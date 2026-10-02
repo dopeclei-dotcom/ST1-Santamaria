@@ -48,11 +48,23 @@ a{color:inherit}
 .card .meta{font-size:13.5px;color:var(--soft)}
 .card .go{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-content:center;font-size:18px}
 /* learned */ 
-.learn{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;padding:64px 0}
+.learn{
+  display:block;
+  padding:64px 0;
+}
 
-.learn h2{font-size:42px;margin-bottom:22px;color:var(--red)}
+.learn h2{
+  font-size:42px;
+  margin-bottom:28px;
+  color:var(--red);
+}
 
-.items{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.items{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px 40px;
+  align-items:start;
+}
 
 .item{display:flex;gap:12px}
 
@@ -186,7 +198,7 @@ dialog .lc{display:flex;justify-content:space-between;gap:16px;align-items:flex-
 dialog .lc p{margin:0;font-size:15px}dialog .lc b{display:block;font-size:17px}
 dialog button{background:var(--red);color:#fff;border:0;border-radius:999px;padding:9px 20px;font:700 15px var(--body);cursor:pointer;flex:none}
 @media (max-width:860px){
- .hero,.learn{grid-template-columns:1fr}.arch{max-width:420px;aspect-ratio:1/1}
+.hero{grid-template-columns:1fr}.arch{max-width:420px;aspect-ratio:1/1}
  .grid{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr 1fr}.stats p{grid-column:1/-1}
 }
 @media (max-width:560px){.grid{grid-template-columns:1fr}.items{grid-template-columns:1fr}.works{padding:20px 16px}}
