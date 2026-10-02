@@ -705,3 +705,26 @@ dialog button{
     scroll-behavior:auto;
   }
 }
+/* WHAT I LEARNED INSIDE CERTIFICATE POPUP */
+
+dialog .certificate-meta{
+  display:block;
+  margin-bottom:18px;
+}
+
+dialog .learn-label{
+  display:block;
+  color:var(--gold);
+  font-family:var(--disp);
+  font-size:25px;
+  letter-spacing:.04em;
+  margin-bottom:6px;
+}
+
+dialog .learn-text{
+  display:block;
+  color:#fff;
+  font-size:15px;
+  line-height:1.55;
+  max-width:850px;
+}
