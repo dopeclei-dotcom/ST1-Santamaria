@@ -2,7 +2,7 @@ const E = "Ethel Programming Computer Programming Services";
 
 const D = [
  { t:"Basics of Cyber Security", m:"UniAthena × Cambridge International Qualifications · Aug 20, 2026", g:"cyber", s:"certs/cybersecurity-basics.jpg", alt:"Certificate of completion, Basics of Cyber Security" },
- { t:"Basics of Advanced Information Systems", m:"UniAthena × Cambridge International Qualifications · Oct 2, 2026", g:"cyber", s:"certs/Mae_Francine_CR1251_certificate.jpg", alt:"Certificate of completion, Basics of Advanced Information Systems" },
+ { t:"Basics of Advanced Information Systems", m:"UniAthena × Cambridge International Qualifications · Oct 2, 2026", g:"cyber", s:"certs/Mae Francine_CR1251_certificate.jpg", alt:"Certificate of completion, Basics of Advanced Information Systems" },
  { t:"AI Tools for Digital Marketing and Media Literature", m:E+" · Aug 22, 2026 · 2 hr webinar", g:"ai", s:"certs/ai-digital-marketing.jpg" },
  { t:"Cybersecurity in iOS and Android Applications Development", m:E+" · Aug 23, 2026 · 1 hr 30 min webinar", g:"cyber dev", s:"certs/cybersecurity-ios-android.jpg" },
  { t:"Deploy Your Website: Hosting, Domain and Cloud Deployment", m:E+" · Aug 21, 2026 · 1 hr webinar", g:"dev", s:"certs/hosting-cloud-deployment.jpg" },
